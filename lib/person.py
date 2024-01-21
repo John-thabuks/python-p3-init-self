@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
 
 class Person:
-    pass
+    #define __init__
+    #argument: name, 
+    def __init__(self, name):
+        self.name = name
